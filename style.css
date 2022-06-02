@@ -554,6 +554,180 @@ margin-bottom: 20px;
     margin-right: 32px;
     height: 36px;
 }
+/*--------------------SECTION 5------------------------*/
+.wrapper5 {
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 358px;   
+    margin: 0 80px;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.wrapper5-left {
+    display: flex;
+    flex-direction: column;
+    /* width: 627px;
+    padding: 0 62px; */
+}
+
+.wrapper5-left h2 {
+    width: 530px;
+    /* height: 159px; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+/* .wrapper5-text-shevron {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 514px;
+    margin-left: 40px;
+} */
+
+/* .carparts {
+
+} */
+
+.input-wrapper5-shevron {
+    width: 75px;
+    height: 58px;
+    background: none;
+    border-radius: 5px;
+    left: 250px;
+    bottom: 315px; 
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid {
+font-size: 20px;
+color: black;
+}
+/*--------------------SECTION 5------------------------*/
+.wrapper7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    width: 1280px;
+    height: 461px;   
+    margin: 0 80px;
+    margin-bottom: 120px;
+    flex-wrap: wrap;
+}
+
+.wrapper7-card1 {
+    background: #F7F7F7;
+    border-radius: 5px;
+    text-align: center;
+    width: 305px;
+    height: 180px;
+}
+
+.wrapper7-card2 {
+    background: #F7F7F7;
+    border-radius: 5px;
+    text-align: center;
+    width: 305px;
+    height: 180px;
+}
+
+.wrapper7-card3 {
+    background: #F7F7F7;
+    border-radius: 5px;
+    text-align: center;
+    width: 305px;
+    height: 180px;
+}
+
+.wrapper7-card4 {
+    background: #F7F7F7;
+    border-radius: 5px;
+    text-align: center;
+    width: 305px;
+    height: 180px;
+}
+
+.wrapper7-card5 {
+    background: #F7F7F7;
+    border-radius: 5px;
+    text-align: center;
+    width: 305px;
+    height: 180px;
+}
+
+.wrapper7-card6 {
+    background: #F7F7F7;
+    border-radius: 5px;
+    text-align: center;
+    width: 305px;
+    height: 180px;
+}
+
+.wrapper7-card7 {
+    background: #F7F7F7;
+    border-radius: 5px;
+    text-align: center;
+    width: 305px;
+    height: 180px;
+}
+
+.wrapper7-card8 {
+    background: #F7F7F7;
+    border-radius: 5px;
+    text-align: center;
+    width: 305px;
+    height: 180px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1440px;
+    height: 311px;
+    background-color: #2F2F2F;
+}
+
+.wrapper7-logo,
+.wrapper7-text1,
+.wrapper7-text2,
+.wrapper7-social {
+    color: #FFFFFF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .wrapper7-text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    width: 128px;
+    margin-bottom: 30px;
+} */
+
+
 
 
 
