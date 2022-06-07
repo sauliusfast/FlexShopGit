@@ -642,41 +642,85 @@ color: black;
     justify-content: space-between;
     margin-bottom: 80px;
 }
-
+/* ------------------- card 1 ---------------- */
 .wrapper6-card1 {
+    padding: 20px;
+    background: #F7F7F7;
     width: 304px; 
     display:flex;
-    justify-content: center; 
-    align-items: center; 
     flex-direction: column; 
     border-radius: 5px;
 }
 
+.wrapper6-card1-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper6-card1-text {
+    margin-bottom: 20px;
+}
+/* ------------------- card 1 ---------------- */
 .wrapper6-card2 {
+    padding: 20px;
+    background: #F7F7F7;
     width: 304px; 
     display:flex;
-    justify-content: center; 
-    align-items: center; 
     flex-direction: column; 
     border-radius: 5px;
+}
+
+.wrapper6-card2-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper6-card1-img img,
+.wrapper6-card2-img img,
+.wrapper6-card3-img img, 
+.wrapper6-card4-img img {
+    height: 190px;
+    width: 165px;
+}
+
+.wrapper6-card2-text {
+    margin-bottom: 20px;
 }
 
 .wrapper6-card3 {
+    padding: 20px;
+    background: #F7F7F7;
     width: 304px; 
     display:flex;
-    justify-content: center; 
-    align-items: center; 
     flex-direction: column; 
     border-radius: 5px;
 }
 
+.wrapper6-card3-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper6-card3-text {
+    margin-bottom: 20px;
+}
+
 .wrapper6-card4 {
+    padding: 20px;
+    background: #F7F7F7;
     width: 304px; 
     display:flex;
-    justify-content: center; 
-    align-items: center; 
     flex-direction: column; 
     border-radius: 5px;
+}
+
+.wrapper6-card4-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper6-card4-text {
+    margin-bottom: 20px;
 }
 
 .wrapper6-card1-stars,
@@ -685,26 +729,11 @@ color: black;
 .wrapper6-card4-stars {
     display:flex;
     justify-content: flex-start;
-
 }
 
-/* .wrapper6-cards {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    margin-bottom: 80px;
-} */
-
-/* .wrapper6-card1 {
-    display:flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
-    background: #F7F7F7;
-    border-radius: 5px;
-    width: 304px; 
-    height: 229px;
-} */
+.wrapper6 span {
+    margin-left: 94px;
+}
 
 /*--------------------SECTION 7 CAR NAMES--------------------*/
 .wrapper7 {
