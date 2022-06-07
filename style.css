@@ -638,24 +638,73 @@ color: black;
 }
 
 .wrapper6-cards {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
+    display: flex;  
+    justify-content: space-between;
     margin-bottom: 80px;
 }
 
 .wrapper6-card1 {
+    width: 304px; 
     display:flex;
-    justify-content: center; /* по горизонтали */
-    align-items: center; /* по вертикали */
-    background: #F7F7F7;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
     border-radius: 5px;
-    width: 304px; /* размеры блока родителя */
-    height: 229px; /* размеры блока родителя */
 }
 
-.wrapper6-card1-text
+.wrapper6-card2 {
+    width: 304px; 
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    border-radius: 5px;
+}
 
+.wrapper6-card3 {
+    width: 304px; 
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    border-radius: 5px;
+}
+
+.wrapper6-card4 {
+    width: 304px; 
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    border-radius: 5px;
+}
+
+.wrapper6-card1-stars,
+.wrapper6-card2-stars,
+.wrapper6-card3-stars,
+.wrapper6-card4-stars {
+    display:flex;
+    justify-content: flex-start;
+
+}
+
+/* .wrapper6-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 80px;
+} */
+
+/* .wrapper6-card1 {
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    background: #F7F7F7;
+    border-radius: 5px;
+    width: 304px; 
+    height: 229px;
+} */
 
 /*--------------------SECTION 7 CAR NAMES--------------------*/
 .wrapper7 {
@@ -683,6 +732,7 @@ color: black;
     display:flex;
     justify-content: center; /* по горизонтали */
     align-items: center; /* по вертикали */
+    flex-direction: column; /* ставит див в колонку*/
     background: #F7F7F7;
     border-radius: 5px;
     width: 305px; /* размеры блока родителя */
@@ -694,6 +744,7 @@ color: black;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: #F7F7F7;
     border-radius: 5px;
     width: 305px;
@@ -704,6 +755,7 @@ color: black;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: #F7F7F7;
     border-radius: 5px;
     width: 305px;
@@ -714,6 +766,7 @@ color: black;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: #F7F7F7;
     border-radius: 5px;
     width: 305px;
@@ -724,6 +777,7 @@ color: black;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: #F7F7F7;
     border-radius: 5px;
     width: 305px;
@@ -734,6 +788,7 @@ color: black;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: #F7F7F7;
     border-radius: 5px;
     width: 305px;
@@ -744,6 +799,7 @@ color: black;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: #F7F7F7;
     border-radius: 5px;
     width: 305px;
@@ -754,10 +810,24 @@ color: black;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: #F7F7F7;
     border-radius: 5px;
     width: 305px;
     height: 180px;
+}
+
+.wrapper7-card1-text,
+.wrapper7-card2-text,
+.wrapper7-card3-text,
+.wrapper7-card4-text,
+.wrapper7-card5-text,
+.wrapper7-card6-text,
+.wrapper7-card7-text,
+.wrapper7-card8-text {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
 }
 
 footer {
