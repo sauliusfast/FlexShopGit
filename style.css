@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* @font-face {
@@ -610,78 +611,106 @@ margin-bottom: 20px;
 font-size: 20px;
 color: black;
 }
-/*--------------------SECTION 5------------------------*/
+/*--------------------SECTION 7 CAR NAMES--------------------*/
+
 .wrapper7 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;    
     width: 1280px;
-    height: 461px;   
     margin: 0 80px;
     margin-bottom: 120px;
-    flex-wrap: wrap;
 }
 
+.wrapper7-text {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.wrapper7-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    flex-wrap: wrap;
+    gap: 20px
+}
+/* ВАЖНО - ТАК ВЫРАВНИВАЕТСЯ ЭЛЕМЕНТ (ФОТО) ВНУТРИ КОРОБКИ */
 .wrapper7-card1 {
+    display:flex;
+    justify-content: center; /* по горизонтали */
+    align-items: center; /* по вертикали */
     background: #F7F7F7;
     border-radius: 5px;
-    text-align: center;
-    width: 305px;
-    height: 180px;
+    width: 305px; /* размеры блока родителя */
+    height: 180px; /* размеры блока родителя */
+    overflow: hidden; /* если элемент больше блока-родителя – обрезаем лишнее */
 }
 
 .wrapper7-card2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background: #F7F7F7;
     border-radius: 5px;
-    text-align: center;
     width: 305px;
     height: 180px;
 }
 
 .wrapper7-card3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background: #F7F7F7;
     border-radius: 5px;
-    text-align: center;
     width: 305px;
     height: 180px;
 }
 
 .wrapper7-card4 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background: #F7F7F7;
     border-radius: 5px;
-    text-align: center;
     width: 305px;
     height: 180px;
 }
 
 .wrapper7-card5 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background: #F7F7F7;
     border-radius: 5px;
-    text-align: center;
     width: 305px;
     height: 180px;
 }
 
 .wrapper7-card6 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background: #F7F7F7;
     border-radius: 5px;
-    text-align: center;
     width: 305px;
     height: 180px;
 }
 
 .wrapper7-card7 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background: #F7F7F7;
     border-radius: 5px;
-    text-align: center;
     width: 305px;
     height: 180px;
 }
 
 .wrapper7-card8 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background: #F7F7F7;
     border-radius: 5px;
-    text-align: center;
     width: 305px;
     height: 180px;
 }
