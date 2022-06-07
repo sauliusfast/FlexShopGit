@@ -208,7 +208,7 @@ header {
     justify-content: center;
 }
 
-.fa-solid {
+.fa-magnifying-glass {
 font-size: 20px;
 color: #FFFFFF;
 }
@@ -567,50 +567,38 @@ margin-bottom: 20px;
     margin-bottom: 50px;
 }
 
-.wrapper5-left {
-    display: flex;
-    flex-direction: column;
-    /* width: 627px;
-    padding: 0 62px; */
-}
-
 .wrapper5-left h2 {
     width: 530px;
-    /* height: 159px; */
     font-weight: 700;
     font-size: 36px;
     line-height: 47px;
     margin-left: 40px;
     margin-bottom: 50px;
+        border-radius: 5px;
 }
 
-/* .wrapper5-text-shevron {
-    display: flex;
-    position: relative;
-    align-items: center;
-    width: 514px;
+.wrapper5-left input {
+    width: 200px;
     margin-left: 40px;
-} */
-
-/* .carparts {
-
-} */
-
-.input-wrapper5-shevron {
-    width: 75px;
-    height: 58px;
-    background: none;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
     border-radius: 5px;
-    left: 250px;
-    bottom: 315px; 
-    display: flex;
-    align-items: center;
+    background: #F7F7F7;
+    z-index: 0;
+    position: relative;
+
 }
 
-.fa-solid {
-font-size: 20px;
-color: black;
+.fa-chevron-right {    
+    position: relative;
+    font-size: 20px;
+    color: black;
+    right: 75px;
+    z-index: 2;
 }
+
 /*--------------------SECTION 6--------------------*/
 .wrapper6 {
     width: 1280px;
