@@ -687,7 +687,7 @@ color: black;
 }
 
 footer {
-    display: flex;
+    display: flex;    
     align-items: center;
     justify-content: space-around;
     width: 1440px;
@@ -701,6 +701,46 @@ footer {
 .wrapper7-social {
     color: #FFFFFF
 }
+
+.wrapper7-logo {
+    transform: translate(0px, -100px);
+}
+
+
+.wrapper7-text1 {
+    transform: translate(0px, -60px);
+        line-height: 2;
+}
+
+.wrapper7-text1 li {
+    list-style-type: none;
+}
+
+.wrapper7-text2 {
+    transform: translate(0px, -60px);
+        line-height: 2;
+}
+
+.wrapper7-text2 li {
+    list-style-type: none;
+}
+
+.wrapper7-social {
+    transform: translate(0px, -93px);
+    line-height: 2;
+}
+
+.wrapper7-social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrapper7-social-telegram,
+.wrapper7-social-insta {
+    margin-right: 26px;
+}
+
+
 
 
 
